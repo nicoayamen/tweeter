@@ -23,6 +23,9 @@ nav {
 #heading-right span {
   margin-right: 0.2em; 
 }
+#heading-right i {
+  color: red;
+}
 
 #header-icon {
   margin-top: 0.01em; 
