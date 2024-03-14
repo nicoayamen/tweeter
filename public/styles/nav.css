@@ -1,5 +1,6 @@
 nav {
   display: flex;
+  position: fixed;
   height: 120px;
   width: 100%;
   background-color: #4056A1;
@@ -12,6 +13,7 @@ nav {
 
 #heading {
   font-size: 40px;
+  font-family: "Bungee", sans-serif;
 }
 
 #heading-right {
