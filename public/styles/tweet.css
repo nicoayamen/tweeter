@@ -34,6 +34,10 @@
   color: #B2BBD9;
 }
 
+.tweet-tweet {
+  padding-top: 10px;
+}
+
 .tweet-border{
   border-top: 3px solid #545149;
   display: flex;
@@ -51,6 +55,6 @@
   width: 75%;
 }
 
-.tweet-icons i:hover {
+i:hover {
   color: #4056A1;
 }
