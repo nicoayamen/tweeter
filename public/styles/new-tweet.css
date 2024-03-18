@@ -1,0 +1,34 @@
+.tweet-text {
+  background-color: inherit;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  }
+  
+  .new-tweet-footer {
+    border-top: 3px solid #545149;
+  }
+  
+  .submit-button, .counter {
+    font-family: "Bungee", sans-serif;
+  }
+  
+  .counter {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 1rem;
+  } 
+  
+  .submit-button {
+    display: flex;
+    background-color: #4056A1;
+    color: #FFFFFF;
+    border-color: #4056A1;
+    position: relative;
+    top: -0.5rem;
+  }
+  
+  .negative {
+    color: red;
+  }
