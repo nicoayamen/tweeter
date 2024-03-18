@@ -1,8 +1,13 @@
+.compose {
+  margin-bottom: 5px;
+}
+
 .tweet-text {
   background-color: inherit;
   width: 100%;
   height: 40px;
   border: 0;
+  margin-top: 5px;
   }
   
   .new-tweet-footer {
@@ -27,6 +32,7 @@
     border-color: #4056A1;
     position: relative;
     top: -0.5rem;
+    margin-bottom: 10px;
   }
   
   .negative {
