@@ -44,7 +44,7 @@
       </div>
   </nav>
 
-  <header>
+  <header class="headings">
     <div class="userimg">
         <img src="/images/profile-hex.png"> 
     </div>
@@ -57,8 +57,10 @@
 
   <!-- Page-specific (main) content here -->
   <main class="container">
+
     <section class="new-tweet">
-      <h2>Compose Tweet</h2>
+
+      <h2 class="compose">Compose Tweet</h2>
       <form action="http://localhost:8080/tweets" method="POST">
         <label for="tweet-text">What are you humming about?</label>
         <textarea name="text" id="tweet-text" class= "tweet-text"></textarea>
@@ -69,6 +71,7 @@
         </footer>
       </form>
     </section>
+    
     <section class= "tweet-container">
       <article class= "tweet">
         <header class="tweet-header">
@@ -84,7 +87,7 @@
         <div class = tweet-border></div>
         <footer class= "tweet-footer">
           <div class="tweet-date">
-            <p>10 days ago</p>
+            <p>3 days ago</p>
           </div>
           <div class="tweet-icons"></div>
             <i class="fa-solid fa-flag"></i>
