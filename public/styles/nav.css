@@ -32,3 +32,11 @@ nav {
 #header-icon {
   margin-top: 0.01em; 
 }
+
+.fa-solid.fa-angles-down {
+  transition: transform 0.3s ease-in-out; /* Define the transition effect */
+}
+
+.fa-solid.fa-angles-down:hover {
+  transform: translateY(5px); /* Rotate the icon on hover */
+}
