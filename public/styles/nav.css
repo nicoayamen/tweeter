@@ -24,29 +24,47 @@ nav {
   flex-direction: column;
   align-items: center;
 }
-  
+
 #heading-right span {
-  margin-right: 0.2em; 
+  margin-right: 0.2em;
 }
+
 #heading-right i {
   color: red;
 }
 
 #header-icon {
-  margin-top: 0.01em; 
+  margin-top: 0.01em;
 }
 
 .fa-solid.fa-angles-down {
-  transition: transform 0.3s ease-in-out; /* Define the transition effect */
+  transition: transform 0.3s ease-in-out;
+  /* Define the transition effect */
 }
 
 .fa-solid.fa-angles-down:hover {
-  transform: translateY(5px); /* Rotate the icon on hover */
+  transform: translateY(5px);
+  /* Rotate the icon on hover */
 }
 
-@media only screen and (width >= 1024px) {
+@media only screen and (width >=1024px) {
   nav {
-  background-color: #4056A1;
-  background-image: none;
+    background-color: #4056A1;
+    background-image: none;
   }
+}
+
+@media (max-width: 486px) {
+  nav {
+    font-size: 20px;
+    /* Decreased font size for smaller viewports */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  nav>span {
+    margin: 20px;
+  }
+
 }

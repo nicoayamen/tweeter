@@ -14,7 +14,7 @@ header h2 {
   margin-top: 5px;
 }
 
-@media only screen and (width >= 1024px) {
+@media only screen and (width >=1024px) {
   .headings {
     display: flex;
     justify-content: flex-end;
