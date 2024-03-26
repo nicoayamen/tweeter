@@ -1,7 +1,7 @@
 .tweet {
   background-color: inherit;
   border: 3px solid #545149;
-  padding:0.75em;
+  padding: 0.75em;
   margin-bottom: 2em;
 }
 
@@ -9,43 +9,44 @@
   box-shadow: 8px 8px #a3b0db;
 }
 
-.tweet-header, .tweet-footer {
+.tweet-header,
+.tweet-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
- }
+}
 
- .tweet-header {
+.tweet-header {
   block-size: 3em;
- }
+}
 
 
-.tweet-person { 
+.tweet-person {
   display: flex;
   align-items: inherit;
 }
 
-.tweet-person > p {
+.tweet-person>p {
   padding-left: 5px;
 }
 
-.tweet-avatar{
+.tweet-avatar {
   block-size: 2em;
 }
 
-.tweet-handle{
+.tweet-handle {
   display: flex;
   align-items: inherit;
   color: #B2BBD9;
 }
 
-.tweet-border{
+.tweet-border {
   border-top: 3px solid #545149;
   display: flex;
   align-content: center;
 }
 
-.tweet-footer{
+.tweet-footer {
   padding-inline: 0.5em;
   font-size: 0.75em;
   block-size: 1.25em;
