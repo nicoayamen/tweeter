@@ -50,3 +50,14 @@ body {
  textarea {
 	resize: none;
 }
+
+@media only screen and (width >= 1024px) {
+  .content {
+    display: flex;
+  }
+  .container {
+    margin-top: 150px;
+    margin-right: 90px;
+    padding-left: 200px;
+  }
+ }
