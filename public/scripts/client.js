@@ -14,7 +14,7 @@ $(document).ready(function() {
 
     const isTweetValid = function() {
       //define variable for number of characters in tweet text form with whitespace trimmed
-      let charCount = $(".tweet-text").val().trim().length; 
+      let charCount = $(".tweet-text").val().trim().length;
 
       //display error if no text is entered
       if (charCount === 0) {
@@ -62,12 +62,12 @@ $(document).ready(function() {
       $('.tweet-container').prepend($tweet);
     });
   };
-  
+
   //sanitize incoming text inputs
-  const escape = function (str) {
+  const escape = function(str) {
     let div = document.createElement("div");
     div.appendChild(document.createTextNode(str));
-    return div.innerHTML
+    return div.innerHTML;
   };
 
   //function to take object with tweet data and return an HTML article containing tweet info
