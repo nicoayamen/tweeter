@@ -18,7 +18,7 @@ $(document).ready(function() {
 
       //display error if no text is entered
       if (charCount === 0) {
-        $(".new-tweet-alert").text("Write something! Let the world know!").slideDown("slow");
+        $(".new-tweet-alert").text("Write something! Let the world!").slideDown("slow");
         return false;
       }
       //display error if character count exceeds 140
