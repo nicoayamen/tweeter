@@ -15,9 +15,12 @@ You can create your own tweets and see them in real time! The app is responsive 
 1. Clone the following repository onto your local device
 ` git clone git@github.com:nicoayamen/tweeter.git `
 
-3. Install dependencies using the `npm install` command.
+2. In your command line interface, run the command
+` cd tweeter/ `
 
-3. To Start the web server use the ` npm start ` command.
+3. Install dependencies using the `npm install` command inside your tweeter directory.
+
+3. To Start the web server use the ` npm start ` command inside the tweeter directory.
 
 4. Go to <http://localhost:8080/> in your browser.
 
