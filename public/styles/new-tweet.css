@@ -31,6 +31,10 @@
   font-family: "Bungee", sans-serif;
 }
 
+.tweet-content {
+  overflow-wrap: break-word;
+}
+
 .counter {
   display: flex;
   justify-content: flex-end;
